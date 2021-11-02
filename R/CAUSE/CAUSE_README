@@ -1,0 +1,11 @@
+#REAME for reproducing CAUSE analysis.
+
+#Since this is a bidirectional MR publication, the amount of combinations of traits is quite big. 
+
+Furthermore, the traits are not from the same consortium and each type of data requires different QCs.For this reason, I decided to generate a code that goes through each combination
+#of traits step by step, without assuming that all of them possess all rsIDs, for example.
+
+#1) QC
+#2) data merging,
+#3) clumping
+#4) CAUSE's main analysis
