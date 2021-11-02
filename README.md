@@ -24,12 +24,27 @@ And sedentary time from Doherty et al available here: (https://ora.ox.ac.uk/obje
 
 As explained before, the main analysis are for BMI as the main adiposity trait, though we also ran analysis for other traits that inform about central obesity or abdominal fat accumualation: body fat percentage, waist circumference adjusted for BMI and waist-to-hip ratio adjusted for BMI. 
 
-BMI GWAS summary statistics from Pulit et al can be found here: (link)
-WHRadjBMI GWAS summary statistics from Pulit et al can be found here: (link)
-WCadjBMI GWAS summary statistics from Shungin et al can be found here: (link)
-BFP GWAS summary statistics from Elsworth et al can be found here: (link)
+BMI GWAS summary statistics from Pulit et al can be found here: (https://zenodo.org/record/1251813/files/bmi.giant-ukbb.meta-analysis.combined.23May2018.txt.gz?download=1)
 
-## Requirement to run CAUSE:
+WHRadjBMI GWAS summary statistics from Pulit et al can be found here: (https://zenodo.org/record/1251813/files/whradjbmi.giant-ukbb.meta-analysis.combined.23May2018.txt.gz?download=1)
+
+WCadjBMI GWAS summary statistics from Shungin et al 2015 can be found here: (https://portals.broadinstitute.org/collaboration/giant/images/7/73/GIANT_2015_WCadjBMI_COMBINED_EUR.txt.gz)
+
+BFP GWAS summary statistics from Elsworth et al 2018 can be found here: (https://gwas.mrcieu.ac.uk/datasets/ukb-b-8909/)
+
+## Running CAUSE:
+
+### Packages requiered:
+
+### Curating WCadjBMI and BFP data:
+
+## Running 2SMR:
+
+### Packages requiered
+
+## Running lhc-MR:
+
+### Packages requiered
 
 
 
