@@ -4,6 +4,4 @@ This is a repository of the Mendelian Randomization analysis ran for the publica
 The repository consists of two sections:
 
 1) The folder structure and code to reproduce our analysis in the /R folder.
-2) The variants and summary statistics used to produce our results, plus a code to easily navigate through them. 
-
-
+2) The variants and summary statistics used to produce our results, plus a code to easily navigate through them in /data_&_results
