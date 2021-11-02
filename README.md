@@ -14,9 +14,9 @@ In this publication we are testing whether there is any causal association betwe
 
 For physical activity we decided to use accelerometer data for vigorous physical activity, moderate physical activity and sedentary time from two different sources.
 
-Vigorous physical activity from the acc425 trait from Klimentidis et al available here: (link)
-Moderate physical activity form Doherty et al available here: (link)
-And sedentary time from Doherty et al available here: (link)
+Vigorous physical activity from the acc425 model from Klimentidis et al 2018 available here: (https://drive.google.com/drive/folders/1p2-aKT6GgOv4425yaIcvO0nN30O4mpPh).
+Moderate physical activity form Doherty et al available here: (https://ora.ox.ac.uk/objects/uuid:ff479f44-bf35-48b9-9e67-e690a2937b22/download_file?file_format=gzip&safe_filename=Doherty-2018-NatureComms-moderate.csv.gz&type_of_work=Dataset).
+And sedentary time from Doherty et al available here: (https://ora.ox.ac.uk/objects/uuid:ff479f44-bf35-48b9-9e67-e690a2937b22/download_file?file_format=gzip&safe_filename=Doherty-2018-NatureComms-sedentary.csv.gz&type_of_work=Dataset).
 
 ### Anthropometric traits:
 
