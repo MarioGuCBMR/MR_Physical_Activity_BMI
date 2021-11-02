@@ -1,0 +1,13 @@
+The code in this folder can:
+
+1) re-run CAUSE cause() functions with the input data for a specific combination of traits.
+2) Or just prints CAUSE's results.
+
+To re-run CAUSE for a specific combination of traits, you need:
+
+1) A dataframe obtained by merging the data (X)
+2) the parameters obtained by est_params() functions using the X dataframe.
+3) the pruned variants for each exposure trait.
+
+Finally, cause() is run with alpha = 1 and beta = 2.
+
