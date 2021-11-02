@@ -34,9 +34,29 @@ BFP GWAS summary statistics from Elsworth et al 2018 can be found here: (https:/
 
 ## Running CAUSE:
 
-### Packages requiered:
+The analysis for this publication started in 03/2020 and, thus, we used the first version of CAUSE, which the authors used to publish in Nature Communication: (link.) Thus, to reproduce our results you should have the versions of the following packages installed:
+
+devtools::install_version("mixsqp", version = "0.1-97", repos = "http://cran.us.r-project.org")
+devtools::install_version("ashr", version = "2.2-32", repos = "http://cran.us.r-project.org")
+devtools::install_github("jean997/cause@v1.0.0")
 
 ### Curating WCadjBMI and BFP data:
+
+While BMI and WHRadjBMI data from Pulit et al 2018 are relatively straighforward to use, WCadjBMI and BFP are not. In the following section, we describe what do you need in order to curate this data and obtain the data that you can find in data_and_results for these two traits.
+
+#### Curating WCadjBMI:
+
+For curating WCadjBMI you will need to follow the code on /R/Curating_GWAS/2_Curating_WCadjBMI.R. Checking that code you will realise that you will need additional data. Why is that? Because WCadjBMI GWAS summary statistics only present rsIDs and in this publication we merge GWAS summary statistics using chromosome and basepair positions in build 37 since the overlap with rsID might not be ideal due to mismatches caused by merged rsIDs. 
+
+This problem can be solved using the chromosome and basepair position from the WHR GWAS from the same publication as WCadjBMI, allowing for an almost perfect match. Please, follow the code in /R/Curating_GWAS/1_Curating_WHR.R to obtain the curated WHR GWAS summary statistics that will be used to obtained the curated WCadjBMI summary statistics. The GWAS summary statistics for WHR from Shungin et al 2015 can be found in: https://portals.broadinstitute.org/collaboration/giant/images/5/54/GIANT_2015_WHR_COMBINED_EUR.txt.gz
+
+Importantly, while we are trying to match with chromosome and position, not all GWAS summary statistics possess them and, even if we do our best to obtain them, we might miss some of them. For those rsIDs without chromosome and position in build 37, the matching is done through rsID..., but as stated before, there might be mismatches due to merged rsIDs (rsIDs that reference the same basepair position, but one is deprecated and no longer used in recent reference panels.) 
+
+To allow the best matching with rsID, we always use a dictionary of synonim rsIDs before running CAUSE. The dictionary can be downloaded: ftp://ftp.ncbi.nlm.nih.gov/snp/organisms/human_9606/database/organism_data/RsMergeArch.bcp.gz
+
+#### Curating BFP:
+
+For BFP, you just need to follow the code on /R/Curating_GWAS/BFP_curation/Curating_BFP.R to clean the original vcf file.
 
 ## Running 2SMR:
 
