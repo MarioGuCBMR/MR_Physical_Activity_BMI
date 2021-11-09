@@ -1,0 +1,5 @@
+Here you can find the dataframes prepared to run 2SMR for each combination of trait in RDS format. You can run the analysis we ran in the publication with the code in ../CODE folder.
+
+The dataframes names are coded so that the first trait is the exposure and the second is the outcome. For example: BMI_ST_DF: BMI = exposure, ST = outcome.
+
+Importantly, I have added dataframes without outliers, but the code ../CODE also includes code to remove them, so if you want to obtain the results with those, just run the first section of the code.
