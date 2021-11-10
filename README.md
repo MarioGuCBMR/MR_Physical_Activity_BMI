@@ -82,6 +82,7 @@ library(data.table)
 library(jsonlite)
 library(httr)
 library(tidyverse)
+library(phenoscanner)
 ```
 
 *Though TwoSampleMR needs remotes:*
@@ -89,6 +90,12 @@ library(tidyverse)
 install.packages("remotes")
 remotes::install_github("MRCIEU/TwoSampleMR") #analysis were performed with version 4.26
 ```
+
+### Curating BMI data
+
+The GIANT BMI summary statistics do not have chromsome and position. It also presents old rsIDs that have been merged into newer ones. To clean this data, we used the chromosome and positions and rsIDs from Pulit et al BMI, dbSNP147 and the merged variants dictionary that can be downloaded from: ftp://ftp.ncbi.nlm.nih.gov/snp/organisms/human_9606/database/organism_data/RsMergeArch.bcp.gz.
+
+Importantly, in the code found in /R/2SMR/curating_data_4_2SMR/ the function PS_query() uses dbSNP147 data that can only be obtained by asking permission to PhenoScanner. The code in this repository does not showcase any of that data, in agreement with PhenoScanner. Importantly, to reproduce correctly how PS_query works, dbSNP147 data should be organized in a specific way. How to handle that data and organize it in the same way to obtain the results can be found in this other repository: https://github.com/MarioGuCBMR/local_SNP_query_in_PhenoScanner. **Once again, neither in this repository nor in local_SNP_query_in_Phenoscanner dbSNP147 data can be found or obtained by using theirs codes, as agreed with PhenoScanner after obtaining it.**
 
 ## Running lhc-MR:
 
