@@ -36,9 +36,11 @@ BFP GWAS summary statistics from Elsworth et al 2018 can be found here: (https:/
 
 The analysis for this publication started in 03/2020 and, thus, we used the first version of CAUSE, which the authors used to publish in Nature Communication: (link.) Thus, to reproduce our results you should have the versions of the following packages installed:
 
+```
 devtools::install_version("mixsqp", version = "0.1-97", repos = "http://cran.us.r-project.org")
 devtools::install_version("ashr", version = "2.2-32", repos = "http://cran.us.r-project.org")
 devtools::install_github("jean997/cause@v1.0.0")
+```
 
 ### Curating WCadjBMI and BFP data:
 
@@ -69,7 +71,8 @@ To run the analysis following the code in the folder /R/2SMR/running_2SMR, you w
 All 2SMR codes start by loading several libraries. 
 
 ```
-All of the followingcan be downloaded using install.packages() function:
+All of the following can be downloaded using install.packages() function:
+
 library(ggplot2)
 library(ggrepel)
 library(dplyr)
@@ -80,7 +83,7 @@ library(jsonlite)
 library(httr)
 library(tidyverse)
 
-Though TwoSampleMR needs remotes:
+**Though TwoSampleMR needs remotes:**
 
 install.packages("remotes")
 remotes::install_github("MRCIEU/TwoSampleMR") #analysis were performed with version 4.26
