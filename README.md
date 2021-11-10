@@ -60,7 +60,31 @@ For BFP, you just need to follow the code on /R/Curating_GWAS/BFP_curation/Curat
 
 ## Running 2SMR:
 
+The 2SMR analysis are sensitive to sample overlap, so we decided to use GIANT BMI summary statistics, since moderate and vigorous physical activity and sedentary time GWAS are from UK Biobank, exclusively. You can find the original GIANT BMI summary statistics here: https://portals.broadinstitute.org/collaboration/giant/images/1/15/SNP_gwas_mc_merge_nogc.tbl.uniq.gz
+
+To run the analysis following the code in the folder /R/2SMR/running_2SMR, you will need to curate the data using the code in /R/2SMR/curating_data_4_2SMR/.
+
 ### Packages requiered
+
+All 2SMR codes start by loading several libraries. 
+
+```
+All of the followingcan be downloaded using install.packages() function:
+library(ggplot2)
+library(ggrepel)
+library(dplyr)
+library(gridExtra)
+library(rmarkdown)
+library(data.table)
+library(jsonlite)
+library(httr)
+library(tidyverse)
+
+Though TwoSampleMR needs remotes:
+
+install.packages("remotes")
+remotes::install_github("MRCIEU/TwoSampleMR") #analysis were performed with version 4.26
+```
 
 ## Running lhc-MR:
 
