@@ -82,9 +82,10 @@ library(data.table)
 library(jsonlite)
 library(httr)
 library(tidyverse)
+```
 
 *Though TwoSampleMR needs remotes:*
-
+```
 install.packages("remotes")
 remotes::install_github("MRCIEU/TwoSampleMR") #analysis were performed with version 4.26
 ```
