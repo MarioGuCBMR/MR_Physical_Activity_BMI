@@ -1,4 +1,4 @@
-###BMI data for reproducing CAUSE results
+### BMI data for reproducing CAUSE results
 
 With the data in each of the folders you can obtain the results that are published by running the run_cause.R in CAUSE/CODE. 
 
