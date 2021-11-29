@@ -3,7 +3,7 @@
 Important: to run these analysis you need to have the curated files in the CURATED_DATA folder.
 You can obtain those by following the instructions in /R/curating_data_4_2SMR.
 
-**Please add the path where your /CURATED_DATA folder is.**
+**When running the code, Please add the path where your /CURATED_DATA folder is.**
 
 ## Additional files that you might need:
 
