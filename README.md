@@ -32,6 +32,8 @@ WCadjBMI GWAS summary statistics from Shungin et al 2015 can be found here: (htt
 
 BFP GWAS summary statistics from Elsworth et al 2018 can be found here: (https://gwas.mrcieu.ac.uk/datasets/ukb-b-8909/)
 
+**All code in this github relies on having the raw data from these sources in the RAW_DATA folder**
+
 ## Running CAUSE:
 
 The analysis for this publication started in 03/2020 and, thus, we used the first version of CAUSE, which the authors used to publish in Nature Communication: (link.) Thus, to reproduce our results you should have the versions of the following packages installed:
