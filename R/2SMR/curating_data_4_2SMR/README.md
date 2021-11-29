@@ -13,7 +13,7 @@ Hence, why this section is so important!
 
 ## Using PhenoScanner data:
 
-I, unfortunately, cannot distribute dbsnp 171 data used to clean the BMI data used in 2SMR analysis, making curating_data_4_2SMR a bit complicated to reproduce.
+I, unfortunately, cannot distribute dbsnp 147 data used to clean the BMI data used in 2SMR analysis, making curating_data_4_2SMR a bit complicated to reproduce.
 For this reason, all the data that this codes produces and that is used in the 2SMR pipeline can be obtained directly from the following zenodo link:
 
 
