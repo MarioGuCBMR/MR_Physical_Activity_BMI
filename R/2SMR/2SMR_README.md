@@ -1,1 +1,0 @@
-2SMR README
