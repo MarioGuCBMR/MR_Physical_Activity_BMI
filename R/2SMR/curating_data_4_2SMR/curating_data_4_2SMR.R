@@ -43,7 +43,7 @@ PS_query <- function(rsid_){
   
   #Let's get the data from our PS folder.
   
-  path_ <- "C:/Users/zlc436/Downloads/dbSNP.txt/dbSNP"
+  path_ <- "~/Downloads/dbSNP.txt/dbSNP"
   
   indexing <- seq(0, 298, by = 10)
   #indexing <- indexing[seq(1,3)]
