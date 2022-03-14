@@ -1,5 +1,5 @@
 # Mendelian randomization suggests a bidirectional, causal relationship between physical inactivity and obesity
-This is a repository of the Mendelian Randomization analysis ran for the publication "Mendelian randomization suggests a bidirectional, causal relationship between physical inactivity and obesity".
+This is a repository of the Mendelian Randomization analysis ran for the publication: Carrasquilla, G. D., García-Ureña, M., Fall, T., Sørensen, T. I. A., & Kilpeläinen, T.O. (2022). Mendelian randomization suggests a bidirectional, causal relationship between physical inactivity and adiposity. eLife, 11, e70386.
 
 The repository consists of two sections:
 
